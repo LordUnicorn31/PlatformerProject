@@ -62,6 +62,8 @@ bool Scene::Update(float dt)
 
 	/*app->render->DrawTexture(img, 0, 7);*/
 
+	app->render->CameraMovement();
+
 
 	return true;
 }
@@ -84,3 +86,5 @@ bool Scene::CleanUp()
 
 	return true;
 }
+
+
