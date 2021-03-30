@@ -11,10 +11,10 @@
   </renderer>
 
   <window>
-    <resolution width="1280" height="720" scale="1"/>
+    <resolution width="1280" height="720" scale="5"/>
     <fullscreen value="false"/>
     <borderless value="false"/>
     <resizable value="false"/>
-    <fullscreen_window value="false"/>
+    <fullscreen_window value="true"/>
   </window>
 </config>

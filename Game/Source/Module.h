@@ -6,6 +6,7 @@
 #include "PugiXml/src/pugixml.hpp"
 
 class App;
+struct Collider;
 
 class Module
 {
@@ -48,6 +49,11 @@ public:
 	virtual bool PostUpdate()
 	{
 		return true;
+	}
+
+	virtual void OnCollision(Collider*, Collider*)
+	{
+
 	}
 
 	// Called before quitting
